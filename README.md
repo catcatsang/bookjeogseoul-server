@@ -115,6 +115,10 @@ memberMapper에 문제가 생겻다고한다. 변수 잘 전달했고 문제는�
 천천히 끝에서부터 차례로 모든걸 봣다. 메소드 이름 부터 코드 끝까지 , 클래스마다 다 확인해보니, mapper.xml name 과 mapper.java 의 메소드명이 달랏다
 
 **[완성 상태]**
+```
+///일반 로그인
+public Optional<PersonalMemberVo> insertPersonal(PersonalMemberVO personalMemberVO);
+```
 곧바로 고쳐줫다. 이제 오타는 줄어들었다고 생각했는데 mapper name 값이 다르면 안돼는걸 알았지만, 서버가 아예 안켜지는건 처음알았다, 그래서궁금해서 찾아봤다
 xml 의 namespace와 package 경로, 및 이름이 완벽히 일치해야한다는걸 다시한번 느끼게되어 mapper 이름 불일치로 출력되는 오류는 2차프로젝트에서 완벽히 고쳣다.
 
