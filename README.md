@@ -46,7 +46,7 @@
 
 ## 4. ERD
 
-![ERD](../)
+<img src="https://github.com/catcatsang/bookjeogseoul-server/blob/master/tbl_book_post_report%20(DDL)%20%5Bbjseoul%5D.png">
 
 ## 5. 담당업무
 
