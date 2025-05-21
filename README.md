@@ -94,7 +94,7 @@
 1차와는 다르게 침착하게 publisher를 찾을수없다하니 VO 먼저 보게되었다. 역시나 Publisher 가없어서 추가해줫다
 
 [완성 상태]
-![alt text](image-10.png)
+<img src="https://github.com/catcatsang/bookjeogseoul-server/blob/master/bookinfo%20%EC%88%98%EC%A0%95.png"><br>
 고쳐주니 완벽하게 조회성공하였음, 
 API를 처음사용할때 출력을 한번 해보고나니 쉬웠다, 대부분의 오류는 필드가없거나, 오타였다.
 <br>
