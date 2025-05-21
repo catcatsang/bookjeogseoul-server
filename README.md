@@ -54,8 +54,8 @@
 
 ### 5-1 서버(server)
 
-[퍼블리싱]
-<img src="https://github.com/catcatsang/bookjeogseoul-server/blob/master/publisher.png">
+[서버]
+<img src="https://github.com/catcatsang/bookjeogseoul-server/blob/master/%EB%B6%81%EC%A0%81%EB%B6%81%EC%A0%81%20%EC%84%9C%EB%B2%84%20%EC%A7%84%ED%96%89%EB%8F%84.png">
 
 > 로그인
 
