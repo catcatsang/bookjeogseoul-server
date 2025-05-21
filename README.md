@@ -83,17 +83,17 @@
 
 ### 6-1 API 조회 도중 오류발생
 
-[이슈 발생 화면]
+**[이슈 발생 화면]**
 <img src="https://github.com/catcatsang/bookjeogseoul-server/blob/master/OpenAPI-error.png"><br>
 
 서울 도서관과 알라딘 api 를 섞어 사용하던도중 오류가 발생했는데, 잘 읽어보니 Publisher 필드가 없다고 나옴, 
 
-[코드 상태]
+**[코드 상태]**
 <img src="https://github.com/catcatsang/bookjeogseoul-server/blob/master/vo%20%EC%97%86%EB%8A%94%20%EC%82%AC%EC%A7%84.png"><br>
 
 1차와는 다르게 침착하게 publisher를 찾을수없다하니 VO 먼저 보게되었다. 역시나 Publisher 가없어서 추가해줫다
 
-[완성 상태]
+**[완성 상태]**
 <img src="https://github.com/catcatsang/bookjeogseoul-server/blob/master/bookinfo%20%EC%88%98%EC%A0%95.png"><br>
 고쳐주니 완벽하게 조회성공하였음, 
 API를 처음사용할때 출력을 한번 해보고나니 쉬웠다, 대부분의 오류는 필드가없거나, 오타였다.
@@ -101,29 +101,29 @@ API를 처음사용할때 출력을 한번 해보고나니 쉬웠다, 대부분�
 
 ### 6-2 Mapper Namespace 매핑
 
-[이슈 발생 화면]
+**[이슈 발생 화면]**
 <img src="https://github.com/catcatsang/bookjeogseoul-server/blob/master/mapper%20%EC%98%A4%EB%A5%98%20%EB%A1%9C%EA%B7%B8.png"><br>
 서버가 아예 실행이 되지않으면서 갑자기 이런 오류가떳다, 서버가 안켜져서 당황했지만 오류를 확인해보니 
 memberMapper에 문제가 생겻다고한다. 변수 잘 전달했고 문제는없었다 뭐가문제인지 몰랐다.
 
-[코드 상태]
+**[코드 상태]#**
 <img src="https://github.com/catcatsang/bookjeogseoul-server/blob/master/mapper%20%EC%98%A4%EB%A5%98%20mapper%EC%AA%BD.png"><br>
 <img src="https://github.com/catcatsang/bookjeogseoul-server/blob/master/mapper%20%EC%9D%B4%EB%A6%84%20.png"><br>
 
 천천히 끝에서부터 차례로 모든걸 봣다. 메소드 이름 부터 코드 끝까지 , 클래스마다 다 확인해보니, mapper.xml name 과 mapper.java 의 메소드명이 달랏다
 
-[완성 상태]
+**[완성 상태]**
 곧바로 고쳐줫다. 이제 오타는 줄어들었다고 생각했는데 mapper name 값이 다르면 안돼는걸 알았지만, 서버가 아예 안켜지는건 처음알았다, 그래서궁금해서 찾아봤다
 xml 의 namespace와 package 경로, 및 이름이 완벽히 일치해야한다는걸 다시한번 느끼게되어 mapper 이름 불일치로 출력되는 오류는 2차프로젝트에서 완벽히 고쳣다.
 
 
 ### 6-3 아무이유없는 null
 
-[이슈 발생 화면]
+**[이슈 발생 화면]**
 <img src="https://github.com/catcatsang/bookjeogseoul-server/blob/master/no%20reason%20null.png">
 로그가 안찍히는 null이다. 이 오류가 떳을때는 정말 생각이 멈췃는데 무엇이 문제인지 몰랏다. 2시간 3시간넘게 매달리다, 다시한번 천천히 꼼꼼하게 처음부터 끝까지 봣다 
 mapper 로 가는길을 의심했다. 
-[코드 상태]
+**[코드 상태]**
 ```
  @PostMapping("sponsor-change-passwd")
     public String changePasswd(String newPasswd, HttpSession session) {
@@ -145,7 +145,7 @@ mapper 로 가는길을 의심했다.
 
 어디부터 만져야할지 몰랏다, 로그를 하나씩 다 찍어보면서 문제를 파악하니 if 안으로 들어가지않음, 그래서 그냥 코드 자체를 바꿧다. 
 
-[완성 상태]
+**[완성 상태]**
 <img src="https://github.com/catcatsang/bookjeogseoul-server/blob/master/null%20%EC%98%A4%EB%A5%98%20%ED%95%B4%EA%B2%B0.png"><br>
 
 그래서 그냥하나씩 수정하며 나온 원인은 changePassword 에 DTO 에 password 를 담아서 같이 보내주면 됫다, 그리고 memberEmail 을 null 로검사하지말고 isEmpty 로 바꿧다. 
