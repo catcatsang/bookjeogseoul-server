@@ -117,7 +117,7 @@ xml 의 namespace와 package 경로, 및 이름이 완벽히 일치해야한다�
 ### 6-3 아무이유없는 null
 
 [이슈 발생 화면]
-<img src="https://github.com/catcatsang/bookjeogseoul-server/blob/master/mapper_namespace.png">
+<img src="https://github.com/catcatsang/bookjeogseoul-server/blob/master/no%20reason%20null.png">
 로그가 안찍히는 null이다. 이 오류가 떳을때는 정말 생각이 멈췃는데 무엇이 문제인지 몰랏다. 2시간 3시간넘게 매달리다, 다시한번 천천히 꼼꼼하게 처음부터 끝까지 봣다 
 mapper 로 가는길을 의심했다. 
 [코드 상태]
