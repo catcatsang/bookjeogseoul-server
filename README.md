@@ -84,7 +84,7 @@
 ### 6-1 API 조회 도중 오류발생
 
 [이슈 발생 화면]
-![alt text](image-6.png)<br>
+<img src="https://github.com/catcatsang/bookjeogseoul-server/blob/master/OpenAPI-error.png"><br>
 
 서울 도서관과 알라딘 api 를 섞어 사용하던도중 오류가 발생했는데, 잘 읽어보니 Publisher 필드가 없다고 나옴, 
 
