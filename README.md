@@ -108,6 +108,7 @@ memberMapper에 문제가 생겻다고한다. 변수 잘 전달했고 문제는�
 
 [코드 상태]
 <img src="https://github.com/catcatsang/bookjeogseoul-server/blob/master/mapper%20%EC%98%A4%EB%A5%98%20mapper%EC%AA%BD.png"><br>
+<img src="https://github.com/catcatsang/bookjeogseoul-server/blob/master/mapper%20%EC%9D%B4%EB%A6%84%20.png"><br>
 
 천천히 끝에서부터 차례로 모든걸 봣다. 메소드 이름 부터 코드 끝까지 , 클래스마다 다 확인해보니, mapper.xml name 과 mapper.java 의 메소드명이 달랏다
 
