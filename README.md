@@ -102,6 +102,7 @@ API를 처음사용할때 출력을 한번 해보고나니 쉬웠다, 대부분�
 ### 6-2 Mapper Namespace 매핑
 
 [이슈 발생 화면]
+<img src="https://github.com/catcatsang/bookjeogseoul-server/blob/master/mapper%20%EC%98%A4%EB%A5%98%20%EB%A1%9C%EA%B7%B8.png"><br>
 서버가 아예 실행이 되지않으면서 갑자기 이런 오류가떳다, 서버가 안켜져서 당황했지만 오류를 확인해보니 
 memberMapper에 문제가 생겻다고한다. 변수 잘 전달했고 문제는없었다 뭐가문제인지 몰랐다.
 
