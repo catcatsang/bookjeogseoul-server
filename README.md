@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/1f8c67cc-e3f4-473a-84d2-2bc19548e92a)![image](https://github.com/user-attachments/assets/eb48a0d8-11e0-4d07-9bef-a69ec93aa87f)# 독서 커뮤니티, 도서 기부 플랫폼 - '북적북적'
+<img src="https://github.com/catcatsang/bookjeogseoul-server/blob/master/images/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C1.PNG"><br># 독서 커뮤니티, 도서 기부 플랫폼 - '북적북적'
 
 ## 1. 기획 의도
 
