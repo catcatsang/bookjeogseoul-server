@@ -89,7 +89,7 @@
 서울 도서관과 알라딘 api 를 섞어 사용하던도중 오류가 발생했는데, 잘 읽어보니 Publisher 필드가 없다고 나옴, 
 
 [코드 상태]
-![alt text](image-7.png)<br>
+<img src="https://github.com/catcatsang/bookjeogseoul-server/blob/master/vo%20%EC%97%86%EB%8A%94%20%EC%82%AC%EC%A7%84.png"><br>
 
 1차와는 다르게 침착하게 publisher를 찾을수없다하니 VO 먼저 보게되었다. 역시나 Publisher 가없어서 추가해줫다
 
