@@ -4,7 +4,7 @@
 
 #### 1. 서비스 제작배경 및 필요성
 
-![제작 배경]
+[제작 배경]
 <img src="https://github.com/catcatsang/bookjeogseoul-server/blob/master/images/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C4.PNG">
 
 디지털화가 가속화되면서 종이책을 통한 독서가 감소하고, 독서 문화 역시 약화되고 있습니다. 
