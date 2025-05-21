@@ -140,11 +140,13 @@ mapper 로 가는길을 의심했다.
 ```
 
 
-어디부터 만져야할지 몰랏다, 그래서 그냥하나씩 수정하며 나온 원인은 changePassword 에 DTO 에 password 를 담아서 같이 보내주면 됫다, 그리고 memberEmail 을 null 로검사하지말고 isEmpty 로 바꿧다. 
-이 시점부터 Optional 에 관심이 더 생기기 시작했고 null 이라는게 어떤 것인지 궁금했다. null 은 기본적으로 사용하기엔 꺼려지는 코드라고 나오고 대부분 boolean 으로 check 하거나 Optional 로 감싸서 사용한다고한다.
-이 오류로 인해서 null 처리에 대해 관심이 깊어졋다.
+어디부터 만져야할지 몰랏다, 로그를 하나씩 다 찍어보면서 문제를 파악하니 if 안으로 들어가지않음, 그래서 그냥 코드 자체를 바꿧다. 
 
 [완성 상태]
+
+그래서 그냥하나씩 수정하며 나온 원인은 changePassword 에 DTO 에 password 를 담아서 같이 보내주면 됫다, 그리고 memberEmail 을 null 로검사하지말고 isEmpty 로 바꿧다. 
+이 시점부터 Optional 에 관심이 더 생기기 시작했고 null 이라는게 어떤 것인지 궁금했다. null 은 기본적으로 사용하기엔 꺼려지는 코드라고 나오고 대부분 boolean 으로 check 하거나 Optional 로 감싸서 사용한다고한다.
+이 오류로 인해서 null 처리에 대해 관심이 깊어졋다.
 수정한뒤 완벽하게 작동이 되었다.
 
 
