@@ -17,7 +17,8 @@
 
 ## 2. 기대 효과
 
-![기대 효과](temp-whyuseus.png)
+[기대 효과]
+<img src="https://github.com/catcatsang/bookjeogseoul-server/blob/master/images/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C6.PNG">
 
 독서 활동의 보상으로 기부에 참여할 기회를 제공함으로써, 사람들이 독서의 즐거움을 더욱 느끼고, 이를 통해 자연스럽게 독서에 대한 관심과 참여가 증가할 수 있다. 또한, 이러한 방식은 독서의 가치를 사회적 기여와 연결하여 더욱 의미 있는 경험으로 확장할 수 있습니다.
 
